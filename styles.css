@@ -1,0 +1,250 @@
+/* Body */
+body {
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  background-color: ivory;
+  text-align: center;
+}
+
+/* Title */
+#title {
+  background-color: #ff4c68;
+}
+
+
+/* Navbar */
+.navbar {
+  color: white;
+  background-color: #FF3E5C;
+  padding: 0rem 5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: semi-bold;
+  letter-spacing: 1.25px;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+
+/* Text and Buttons */
+
+.hero-heading {
+  margin-top: 10%;
+  font-size: 3.5rem;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+p {
+  font-family: "dm sans", sans-serif;
+  font-weight: 500;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+  text-align: left;
+}
+
+.btn-primary, .btn-outline-secondary {
+  font-weight: 600;
+}
+
+
+.btn-primary {
+  background-color: #2E294E;
+  border: 3px solid white;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  border: 3px solid #2E294E;
+  color: #2E294E;
+  font-weight: 600;
+}
+
+.btn-outline-secondary {
+  border: 3px solid #2E294E;
+  color: #2E294E;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #ff4c68;
+  border: 3px solid white;
+  color: white;
+  font-weight: 600;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.container-fluid {
+  padding-top: 4rem;
+}
+
+.benefits-heading {
+  font-weight: 600;
+}
+
+/* Title Image */
+
+.hero-img {
+  width: 60%;
+  transform: rotate(25deg);
+  transition: width 1s ease-in;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+
+.hero-img:hover {
+  width: 80%;
+  transform: rotate(25deg);
+}
+
+
+/* Section-2 */
+
+#features {
+  padding: 4.5rem 2.5rem 6rem 2.5rem;
+}
+
+.container-fluid-2 {
+  color: #1C0221;
+}
+
+.fa-check-circle, .fa-crown, .fa-heartbeat {
+color: #ff477e;
+transition: color .25s ease-in-out;
+padding-bottom: 5%;
+padding-top: 10%;
+}
+
+.fa-check-circle:hover, .fa-crown:hover, .fa-heartbeat:hover {
+color: #ff4c68;
+}
+
+#features p {
+  color: #536162;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+#features.col-sm-12 {
+  margin-top: 10%;
+}
+
+/* Testimonials */
+
+#testimonials {
+  background-color: #ff4c68;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 15%;
+  margin: 20px 30px 20px 20px;
+}
+
+#press {
+  background-color: #ff4c68;
+  padding-bottom: 1%;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 5%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 4rem 4rem 2rem 4rem;
+  color: #1C0221;
+}
+
+.card {
+  text-align: left;
+  margin: 5%;
+}
+
+.btn-outline-danger {
+  border-color: #ff4c68;
+  border-width: 3px solid;
+}
+
+.btn-danger {
+  background-color: #ff4c68;
+}
+
+
+.btn-danger:hover, .btn-outline-danger:hover {
+  background-color: #ff477e;
+}
+
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  padding: 6%;
+  color: #FFF;
+}
+
+.ctabutton {
+  margin-top: 2em;
+}
+
+.cta-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+/* Footer */
+#footer {
+  color: #1c0221;
+  padding-top: 1%;
+}
+
+.fa-2x {
+  color: #ff4c68;
+  margin: 4% 2% 2%;
+}
+
+.fa-2x:hover {
+  color: #1c0221;
+}
+
+.footertext {
+  padding-top: 1%;
+  color: #1c0221;
+}
+
+
+/* Media Queries */
+
+/* @media only screen and (max-width: 970px){
+  .hero-img {
+    transform: rotate(0deg);
+    text-align: center;
+  }
+
+} */
